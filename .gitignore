@@ -1,0 +1,40 @@
+# === Python Bytecode & Cache ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# === Virtual Environment ===
+venv/
+env/
+.venv/
+
+# === Environment Variables ===
+.env
+.env.*
+
+# === VSCode or IDE Stuff ===
+.vscode/
+.idea/
+
+# === MacOS Files ===
+.DS_Store
+
+# === Testing and Logs ===
+*.log
+coverage/
+htmlcov/
+*.cover
+
+# === Build Artifacts ===
+dist/
+build/
+*.egg-info/
+
+# === Uvicorn Reload Cache (optional but safe) ===
+*.reload
+
+# === OS Junk ===
+Thumbs.db
+ehthumbs.db
